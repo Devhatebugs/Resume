@@ -9,7 +9,7 @@ const Projects = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="mb-8 text-center text-3xl lg:text-4xl"
+        className="mb-8 text-center text-3xl lg:text-4xl font-semibold"
       >
         Projects
       </motion.h2>
@@ -41,14 +41,14 @@ const Projects = () => {
               <h3 className="mb-2 text-xl">{project.name}</h3>
               <p className="mb-12 p-4">{project.description}</p>
               <a
-                href={project.githubLink}
+                href={project.instagramLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-full bg-white px-4
-                py-2 text-black hover:bg-gray-300"
+                py-2 text-black hover:bg-[#71ed11]"
               >
                 <div className="flex items-center">
-                  <span>View on GitHub</span>
+                  <span>View on Instagram</span>
                   <MdArrowOutward />
                 </div>
               </a>

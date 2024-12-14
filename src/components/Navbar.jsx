@@ -45,7 +45,7 @@ const Navbar = () => {
                 {NAVIGATION_LINKS.map((item, index) => (
                   <li key={index}>
                     <a
-                      className="text-sm hover:text-yellow-400"
+                      className="text-sm hover:text-[#71ed11]"
                       href={item.href}
                       onClick={(e) => handleLinkClick(e, item.href)}
                     >
@@ -67,7 +67,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center">
               <button
-                className="focus:outline-none lg:hidden"
+                className="focus:outline-none lg:hidden hover:text-[#71ed11]"
                 onClick={toggleMobileMenu}
               >
                 {isMobileMenuOpen ? (
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <li key={index}>
                   <a
                     href={item.href}
-                    className="block w-full text-lg"
+                    className="block w-full text-lg hover:text-[#71ed11]"
                     onClick={(e) => handleLinkClick(e, item.href)}
                   >{item.label}</a>
                 </li>

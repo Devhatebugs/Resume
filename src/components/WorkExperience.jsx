@@ -16,7 +16,7 @@ const WorkExperience = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="space-y-8 p-10"
+        className="space-y-8 p-10 "
       >
         {EXPERIENCES.map((experience, index) => (
           <motion.div
@@ -24,7 +24,7 @@ const WorkExperience = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: index * 0.2 }}
             key={index}
-            className="rounded-xl border border-stone-50/30 bg-white/10 p-4"
+            className="rounded-xl border border-stone-50/30  bg-white/10 p-4"
           >
             <h3 className="text-2xl font-semibold">{experience.title}</h3>
             <p className="text-xl">{experience.company}</p>
