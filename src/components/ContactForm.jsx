@@ -45,10 +45,10 @@ const ContactForm = () => {
 
       emailjs
         .send(
-          "service_0lu92fo",
-          "template_2fm37cc",
+          "service_yzdsock",
+          "template_rjvcetq",
           formData,
-          "DE1nKt8Gl0WVhjswK"
+          "YtsFg6MLt_XRIxq5T"
         )
         .then((response) => {
           toast.success("Message sent successfully");
@@ -87,7 +87,7 @@ const ContactForm = () => {
               onChange={handleChange}
               className="mb-8 w-full appearance-none rounded-lg
               border border-stone-50/30 bg-transparent px-3 py-2
-              text-sm focus:border-[#71ed11] focus:outline-none"
+              text-sm focus:border-stone-400 focus:outline-none"
             />
             {errors.name && (
               <motion.p
@@ -109,7 +109,7 @@ const ContactForm = () => {
               onChange={handleChange}
               className="mb-8 w-full appearance-none rounded-lg
               border border-stone-50/30 bg-transparent px-3 py-2
-              text-sm focus:border-[#71ed11] focus:outline-none"
+              text-sm focus:border-stone-400 focus:outline-none"
             />
             {errors.email && (
               <motion.p
@@ -131,7 +131,7 @@ const ContactForm = () => {
             onChange={handleChange}
             className="mb-8 w-full appearance-none rounded-lg
               border border-stone-50/30 bg-transparent px-3 py-2
-              text-sm focus:border-[#71ed11] focus:outline-none"
+              text-sm focus:border-stone-400 focus:outline-none"
             rows="6"
           />
           {errors.message && (
@@ -148,7 +148,7 @@ const ContactForm = () => {
           type="submit"
           className={`mb-8 w-full rounded border border-stone-50/30
             bg-stone-200 px-4 py-2 text-sm font-semibold
-            text-stone-900 hover:bg-[#71ed11]
+            text-stone-900 hover:bg-stone-300
             ${isSending ? "cursor-not-allowed opacity-50" : ""}`}
           disabled={isSending}
         >

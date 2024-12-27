@@ -6,19 +6,17 @@ const Footer = () => {
   return (
     <div className="mb-8 mt-20">
       <div className="flex items-center justify-center">
-        <a href="">
-          <motion.img
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            src={logo}
-            width={200}
-            className="my-20"
-            alt="logo"
-          />
-        </a>
+        <motion.img
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          src={logo}
+          width={200}
+          className="my-20"
+          alt="logo"
+        />
       </div>
-      <div className="flex items-center justify-center gap-8 hover:text-[#71ed11]">
+      <div className="flex items-center justify-center gap-8">
         {SOCIAL_MEDIA_LINKS.map((link, index) => (
           <motion.a
             initial={{ opacity: 0 }}
@@ -33,8 +31,8 @@ const Footer = () => {
           </motion.a>
         ))}
       </div>
-      <p className="mt-8 text-center text-sm tracking-wide text-white-400">
-        &copy;2025 Ayushsharma. All rights reserved.
+      <p className="mt-8 text-center text-sm tracking-wide text-gray-400">
+        &copy;2025 Nileshhablani. All rights reserved.
       </p>
     </div>
   );

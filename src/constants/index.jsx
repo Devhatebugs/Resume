@@ -1,6 +1,9 @@
 import {
+  FaXTwitter,
+  FaGithub,
   FaLinkedin,
   FaFacebook,
+  FaDiscord,
   FaInstagram,
 } from "react-icons/fa6";
 
@@ -11,12 +14,13 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
-import { GrAnnounce } from "react-icons/gr";
-import { FaCameraRetro } from "react-icons/fa6";
-import { MdVideoCameraFront } from "react-icons/md";
+import { MdOutlinePhotoCameraFront } from "react-icons/md";
+import { HiOutlineSpeakerphone } from "react-icons/hi";
+import { FaMeta } from "react-icons/fa6";
+import { BsFillEnvelopeAtFill } from "react-icons/bs";
+import { FaHandshake } from "react-icons/fa";
+import { LuMonitorCog } from "react-icons/lu";
 import { TbTargetArrow } from "react-icons/tb";
-import { BiVideoPlus } from "react-icons/bi";
-import { MdOutlineImportantDevices } from "react-icons/md";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -28,182 +32,164 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "AYUSH SHARMA",
-  greet: "Hello there!",
+  name: "NILESH HABLANI",
+  greet: "Hello there !",
   description:
-    "Marketing professional with 2 years of agency experience in videography, content creation, and client management. Skilled in crafting engaging content and delivering impactful campaigns to boost brand visibility and drive results.",
+    "I'm a visual storyteller with 2 years of photography experience, 1 year of crafting cinematic wonders in videography, and 6 months of rocking the social media scene. Armed with a camera, creativity, and a knack for making things pop, I turn ideas into experiences that stop the scroll",
 };
 
 export const PROJECTS = [
   {
     id: 1,
-    name: "Hospitality",
+    name: "Style & Wearables",
     description:
-      "A video created by me, showcasing the vibrant Rajasthani culture, traditional flavors, and lively performances of Sayaji's unforgettable food fest, Rangilo Rajasthan.",
+      "Showcasing creative social media videos that elevate wearable fashion brands and captivate audiences.",
     image: projectImage1,
-    instagramLink: "https://www.instagram.com/reel/C79VksHtzfz/",
+    instagramLink: "https://www.instagram.com/reel/C8tkscuP2vh/",
   },
   {
     id: 2,
-    name: "Hospitality",
+    name: "Fine Jewelry & Luxe Essentials",
     description:
-      "A video created by me, capturing the vibrant essence of Sayaji's food fest, 'Mango Madness,' celebrating the king of fruits with delicious mango-themed dishes and cheerful vibes.",
+      "Turning luxury jewelry into scroll-stopping stories that dazzle and demand attention.",
     image: projectImage2,
-    instagramLink: "https://www.instagram.com/reel/C6_NAy1vu7x/",
+    instagramLink: "https://www.instagram.com/reel/C-HuHiURe_a/",
   },
   {
     id: 3,
-    name: "Hospitality",
+    name: "Restaurants & Cafes",
     description:
-      "A video crafted by me, highlighting Sayaji's heartfelt appreciation for the strength, resilience, and contributions of men on international men's day",
+      "Serving up crave-worthy social media videos that make cafes and restaurants irresistible.",
     image: projectImage3,
-    instagramLink: "https://www.instagram.com/reel/Cz0S5efrY5P/",
+    instagramLink: "https://www.instagram.com/reel/DAED1U3NHdO/",
   },
   {
     id: 4,
-    name: "Gymnasium",
+    name: "Fitness & Wellness Hubs",
     description:
-      "A Trending video created by me, capturing the energy and spirit of BodSquad, designed to engage and inspire their Instagram audience with trending content.",
+      "Flexing creative social media videos that energize gym and fitness brands to stand out.",
     image: projectImage4,
-    instagramLink: "https://www.instagram.com/reel/DDhKTBaylxs/",
+    instagramLink: "https://www.instagram.com/reel/DDZeieHSnx1/",
   },
   {
     id: 5,
-    name: "Automobiles",
+    name: "Educational Institutions",
     description:
-      "A video showcasing the latest offerings and vibrant atmosphere of Sparsh Automobiles, designed to engage and connect with their Instagram audience.",
+      "Crafting inspiring social media videos that highlight educational institutions and their vibrant campus life.",
     image: projectImage5,
-    instagramLink: "https://www.instagram.com/reel/CxVk567tAfo/",
+    instagramLink: "https://www.instagram.com/reel/DCbeVV6PMA5/",
   },
   {
     id: 6,
-    name: "Restaurants",
+    name: "Two-Wheeler Showrooms",
     description:
-      "A video highlighting the delicious offerings and inviting ambiance of Shikhar Restaurant, crafted to captivate and engage their Instagram audience.",
+      "Revving up engaging social media videos that put two-wheeler dealerships in the fast lane.",
     image: projectImage6,
-    instagramLink: "https://www.instagram.com/reel/C60mdziSOsK/",
+    instagramLink: "https://www.instagram.com/reel/DBYl6xdvPv7/",
   },
   {
     id: 7,
-    name: "Cafe & Bar",
+    name: "Catering Services",
     description:
-      "A fun and quirky meme video created for Elude, designed to entertain and engage their Instagram audience with a touch of humor.",
-    image: projectImage1,
-    instagramLink: "https://www.instagram.com/reel/C_vGPUbPo6H/",
-  },
-  {
-    id: 8,
-    name: "Cafe & Bar",
-    description:
-      "A high-energy video capturing the vibrant atmosphere of Elude's techno party, crafted to showcase the excitement and rhythm, engaging their Instagram audience.",
-    image: projectImage2,
-    instagramLink: "https://www.instagram.com/reel/C_dAPlVvgXk/",
-  },
-  {
-    id: 9,
-    name: "Restaurants",
-    description:
-      "A video highlighting Desi Thaat Veg's CSR activity, showcasing their commitment to the community and creating a positive impact, crafted to inspire and engage their Instagram audience.",
-    image: projectImage3,
-    instagramLink: "https://www.instagram.com/reel/C_XP6ixyQLk/",
-  },
-  {
-    id: 10,
-    name: "Education",
-    description:
-      "A video summarizing the highlights of an event at Anjaneya University, capturing key moments and engaging the audience with a dynamic recap for their Instagram page.",
-    image: projectImage4,
-    instagramLink: "https://www.instagram.com/reel/DCKK4qjSOGS/",
-  },
-  {
-    id: 11,
-    name: "Personal Blog",
-    description:
-      "A captivating video showcasing the vibrant sights and sounds of Mumbai, created for my Instagram page to share the city's energy and charm with my audience.",
-    image: projectImage5,
-    instagramLink: "https://www.instagram.com/reel/DAcR9xCIKnw/",
-  },
-  {
-    id: 12,
-    name: "Personal Blog",
-    description:
-      "A creative video made for my Instagram page, showcasing my unique style and personality, designed to engage and connect with my audience.",
+      "Serving up flavorful social media videos that make catering services the talk of the town.",
     image: projectImage6,
-    instagramLink: "https://www.instagram.com/reel/DDjkIDdNrPG/",
+    instagramLink: "https://www.instagram.com/reel/DAsWy-Ftfr2/",
   },
 ];
 
 export const BIO = [
-  "I completed my schooling at Kendriya Vidyalaya in 2022, where I cultivated a strong interest in videography and storytelling.",
-  "In 2023, I joined Creative Nest, a thriving platform where I developed my skills in videography, video editing, content writing, and client management.",
-  "With two years of experience at Creative Nest, I specialize in creating engaging multimedia content and managing client relationships to execute successful marketing campaigns.",
-  "I combine creative vision with strategic thinking to enhance brand visibility and deliver measurable results. My commitment lies in crafting impactful visuals and narratives while ensuring seamless communication and exceptional client satisfaction.",
+  "I completed my schooling at Adarsh Vidyalaya, Devendra Nagar, and earned my Bachelor’s degree from Maharaja Agrasen International College.",
+  "During my studies, I discovered my passion for social media management—a spark that quickly grew into a vision to turn it into a thriving professional career.",
+  "From casual scrolling to crafting scroll-stopping content, my journey is all about transforming curiosity into creativity!",
 ];
 
 export const SKILLS = [
   {
-    icon: <GrAnnounce  className="text-4xl text-cyan-400 lg:text-5xl" />,
-    name: "Social Media Marketing",
+    icon: (
+      <MdOutlinePhotoCameraFront className="text-4xl text-pink-600 lg:text-5xl" />
+    ),
+    name: "Content Creation",
+    experience: "1+ year",
+  },
+  {
+    icon: <HiOutlineSpeakerphone className="text-4xl text-white lg:text-5xl" />,
+    name: "Social Media Management",
     experience: "2+ years",
   },
   {
-    icon: <FaCameraRetro className="text-4xl text-white lg:text-5xl" />,
-    name: "Event Photography",
-    experience: "2+ years",
+    icon: <FaMeta className="text-4xl text-blue-600 lg:text-5xl" />,
+    name: "Meta (PPC) Advertising",
+    experience: "1+ year",
   },
   {
-    icon: <MdVideoCameraFront className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "Event Videography",
-    experience: "2+ years",
+    icon: (
+      <BsFillEnvelopeAtFill className="text-4xl text-orange-500 lg:text-5xl" />
+    ),
+    name: "Email Marketing",
+    experience: "1+ year",
+  },
+  {
+    icon: <FaHandshake className="text-4xl text-yellow-400 lg:text-5xl" />,
+    name: "Influencer and Affiliate Marketing",
+    experience: "1+ year",
+  },
+  {
+    icon: <LuMonitorCog className="text-4xl text-sky-300 lg:text-5xl" />,
+    name: "Website Optimization",
+    experience: "1+ year",
   },
   {
     icon: <TbTargetArrow className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Marketing",
-    experience: "2+ years",
-  },
-  {
-    icon: <BiVideoPlus className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "Video Editing",
-    experience: "2+ years",
-  },
-  {
-    icon: <MdOutlineImportantDevices className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "Digital Marketing",
+    name: "Video and Visual Marketing",
     experience: "2+ years",
   },
 ];
 
 export const EXPERIENCES = [
   {
-    title: "Content Curator",
-    company: "Creative Nest Media Solutions",
-    duration: "July 2023 - Present",
+    title: "Social Media Manager",
+    company: "Creative Nest",
+    duration: "August 2024 - Present",
     description:
-      "As part of the Creative Nest team, I specialize in managing shoots, editing high-quality videos and visuals, and providing top-notch client servicing to ensure every project meets our clients' needs and expectations.",
+      "Driving digital strategies, and managing social media campaigns for diverse clients with measurable success for 6 months and ongoing.",
+  },
+  {
+    title: "Social Media Manager",
+    company: "Webonix Media",
+    duration: "January 2023 - September 2023",
+    description:
+      "Managed social media, SEO, and paid campaigns, boosting engagement and ROI through creative strategies over 9 months.",
   },
 ];
 
 export const EDUCATION = [
   {
-    degree: "Bachelor of Arts",
-    institution: "Govt. J. Yoganandam Chhattisgarh College ",
-    duration: "September 2022 - June 2025",
+    degree: "Bachelor of Commerce (B.Com)",
+    institution: "Maharaja Agrasen International College, Raipur",
+    duration: "August 2021 - April 2024",
     description:
-      "I have completed my Bachelor's in Arts from Govt. J. Yoganandam Chhattisgarh College, building a solid foundation in Videography and Content Creation.",
+      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+  },
+  {
+    degree: "Higher Secondary and Schooling",
+    institution: "Adarsh Vidyalaya D.N., Raipur",
+    duration: "July 2020 - April 2021",
+    description:
+      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
   },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://www.facebook.com/Ayush.2603",
+    href: "https://www.facebook.com/nilesh.hablani.1",
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.instagram.com/ayxsh._.17/",
+    href: "https://www.instagram.com/nilesh.hablani/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/in/ayush-sharma-bb292b250/",
+    href: "https://www.linkedin.com/in/nilesh-hablani-a27027278/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
