@@ -1,5 +1,5 @@
 import { HERO } from "../constants";
-import ayuImg from "../assets/ayuImg.png";
+import rohImg from "../assets/rohImg.jpeg";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            src={ayuImg}
+            src={rohImg}
             width={550}
             height={550}
             alt="Rohit Bera"
